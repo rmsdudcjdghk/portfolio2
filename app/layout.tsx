@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ko_KR",
     url: "https://your-domain.com",
-    title: "나의 포트폴리오",
-    description: "창의적인 아이디어로 웹 경험을 디자인합니다.",
-    siteName: "나의 포트폴리오",
+    title: "청화의 포트폴리오",
+    description: "오청화입니다.",
+    siteName: "청화의 포트폴리오",
     images: [
       {
         url: "/api/og-image", // 동적 OG 이미지 API
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "나의 포트폴리오",
-    description: "창의적인 아이디어로 웹 경험을 디자인합니다.",
+    title: "청화의 포트폴리오",
+    description: "오청화입니다.",
     images: ["/api/og-image"],
   },
   robots: {
