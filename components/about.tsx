@@ -99,12 +99,12 @@ export function About() {
     title: "소개",
     subtitle: "저에 대해 소개합니다.",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2022~","description":"경영학과, 통계데이터사이언스학과"},{"icon":"user","title":"병역의무","period":"2023.04~2024.10","description":"대한민국 해병대 병장 만기전역"},{"icon":"briefcase","title":"단국대학교 단과대대의원 1학년대표","period":"2022","description":" "},{"icon":"briefcase","title":"제 21대 대선 국민의힘 홍보특보","period":"2025.05.23","description":" "},{"icon":"book","title":"Google AI Essential 수료","period":"2025.09.06","description":" "},{"icon":"lightbulb","title":"KYWA 제 2회 청소년데이터분석 공모전","period":"2025.11","description":" "},{"icon":"briefcase","title":"시나공 서포터즈 20기","period":"2025.12~2026.01","description":" "},{"icon":"trophy","title":"ADsP : 데이터분석 준전문가","period":"2025","description":" "},{"icon":"trophy","title":"빅데이터분석실무2급","period":"2025","description":" "},{"icon":"trophy","title":"단국대학교 성적우수상","period":"2025","description":" "},{"icon":"trophy","title":"SQLD : SQL개발자","period":"2026","description":" "},{"icon":"trophy","title":"TOEIC 770","period":"2026","description":" "}],
+    experienceCards: [{"icon":"graduation","title":"Chongqing University","period":" ","description":" "},{"icon":"trophy","title":"HSK 6급","period":"2026","description":" "},{"icon":"briefcase","title":"코멘토 서포터즈 11기","period":"2026","description":" "},{"icon":"briefcase","title":"여담기자단 10기 해외기자","period":"2026","description":" "}],
     skills: [],
-    storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다."],
-    storyImage: "/uploads/about-image-1773244628705.jpg",
-    hobbies: ["🏊 수영","🏃 운동","🎸 기타 연주"]
+    storyTitle: "열정",
+    story: [],
+    storyImage: "",
+    hobbies: ["📚 독서","☕ 카페 투어"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)

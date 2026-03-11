@@ -33,18 +33,19 @@ export function Hero() {
   const { getData, saveData, isEditMode, saveToFile, saveFieldToFile } = useInlineEditor()
   
   // 초기 데이터 - 배열 형태로 변경
-  const defaultSocialLinks = [{"name":"instagram","icon":"instagram","url":"https://www.instagram.com/atthebiz2022/"},{"name":"티스토리","icon":"globe","url":"https://kksoup.tistory.com/"},{"name":"네이버 블로그","icon":"globe","url":"https://blog.naver.com/qkrrmsdud3251"},{"name":"이메일","icon":"mail","url":"qkrrmsdud3251@naver.com"}]
+  const defaultSocialLinks = [{"name":"새 링크","icon":"instagram","url":"https://www.instagram.com/auther2oo1?igsh=aWg2Nmd4YWFkOXEw"},{"name":"새 링크","icon":"globe","url":"https://blog.naver.com/kamuifor"}]
   
   const defaultInfo = {
     greeting: "안녕하세요,",
-    name: "박근영 입니다",
-    title: "단국대학교 경영대학/소프트웨어대학",
+    name: "오청화입니다",
+    title: "중어중문학/무역학",
     description: "문과지옥에서 살아남기",
-    profileImage: "/uploads/hero-profile-1773244355702.jpg",
+    profileImage: "/uploads/hero-profile-1773251614059.png",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
-    projectButton: "프로젝트 보기"
+    projectButton: "프로젝트 보기",
+    background: {"image":"","video":"","color":"#ff0095","opacity":0.1}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)

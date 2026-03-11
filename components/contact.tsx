@@ -34,14 +34,14 @@ export function Contact() {
   
   // 기본 데이터
   const defaultInfo = {
-    name: "박근영",
+    name: "오청화",
     title: "",
     company: "",
     experience: "",
-    phone: "010-3749-3251",
-    email: "qkrrmsdud3251@naver.com",
+    phone: "010-6627-0334",
+    email: "alicetulip@naver.com",
     website: "",
-    location: "경기 용인시 기흥구",
+    location: "Chongqing, China",
     workTime: "평일 09:00 - 18:00",
     responseTime: "24시간 이내 응답",
     sectionTitle: "연락처",
@@ -60,17 +60,12 @@ export function Contact() {
     {
       "name": "새 링크",
       "icon": "instagram",
-      "url": "https://www.instagram.com/atthebiz2022/"
+      "url": "https://www.instagram.com/auther2oo1?igsh=aWg2Nmd4YWFkOXEw"
     },
     {
       "name": "새 링크",
       "icon": "globe",
-      "url": "https://kksoup.tistory.com/"
-    },
-    {
-      "name": "새 링크",
-      "icon": "globe",
-      "url": "https://blog.naver.com/qkrrmsdud3251"
+      "url": "https://blog.naver.com/kamuifor"
     }
   ]
   
