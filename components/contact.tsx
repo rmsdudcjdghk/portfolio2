@@ -59,8 +59,18 @@ export function Contact() {
   const defaultSocialLinks: { name: string; icon: string; url: string }[] = [
     {
       "name": "새 링크",
+      "icon": "instagram",
+      "url": "https://www.instagram.com/atthebiz2022/"
+    },
+    {
+      "name": "새 링크",
       "icon": "globe",
-      "url": ""
+      "url": "https://kksoup.tistory.com/"
+    },
+    {
+      "name": "새 링크",
+      "icon": "globe",
+      "url": "https://blog.naver.com/qkrrmsdud3251"
     }
   ]
   

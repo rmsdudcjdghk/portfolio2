@@ -33,7 +33,7 @@ export function Hero() {
   const { getData, saveData, isEditMode, saveToFile, saveFieldToFile } = useInlineEditor()
   
   // 초기 데이터 - 배열 형태로 변경
-  const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
+  const defaultSocialLinks = [{"name":"instagram","icon":"instagram","url":"https://www.instagram.com/atthebiz2022/"},{"name":"티스토리","icon":"globe","url":"https://kksoup.tistory.com/"},{"name":"네이버 블로그","icon":"globe","url":"https://blog.naver.com/qkrrmsdud3251"},{"name":"이메일","icon":"mail","url":"qkrrmsdud3251@naver.com"}]
   
   const defaultInfo = {
     greeting: "안녕하세요,",
@@ -44,8 +44,7 @@ export function Hero() {
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
-    projectButton: "프로젝트 보기",
-    background: {"image":"","video":"","color":"#009dff","opacity":0.1}
+    projectButton: "프로젝트 보기"
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
