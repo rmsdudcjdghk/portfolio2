@@ -215,7 +215,7 @@ export function Header() {
                       updateNavConfig('siteTitle', e.target.value)
                     }}
                     className="w-full px-3 py-2 border rounded-lg bg-background"
-                    placeholder="나의 포트폴리오"
+                    placeholder="청화의 포트폴리오"
                   />
                 </div>
                 <div>
@@ -228,7 +228,7 @@ export function Header() {
                       updateNavConfig('siteDescription', e.target.value)
                     }}
                     className="w-full px-3 py-2 border rounded-lg bg-background"
-                    placeholder="창의적인 아이디어로 웹 경험을 디자인합니다."
+                    placeholder="안녕하세요. 오청화입니다."
                   />
                 </div>
               </div>
@@ -245,7 +245,7 @@ export function Header() {
                     value={navConfig.logo}
                     onChange={(e) => updateNavConfig('logo', e.target.value)}
                     className="w-full px-3 py-2 border rounded-lg bg-background"
-                    placeholder="나의 포트폴리오"
+                    placeholder="청화의 포트폴리오"
                   />
                 </div>
               </div>
