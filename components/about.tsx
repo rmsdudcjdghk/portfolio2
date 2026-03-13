@@ -99,9 +99,9 @@ export function About() {
     title: "소개",
     subtitle: "저에 대해 소개합니다.",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"graduation","title":"Chongqing University","period":" ","description":" "},{"icon":"trophy","title":"HSK 6급","period":"2026","description":" "},{"icon":"briefcase","title":"코멘토 서포터즈 11기","period":"2026","description":" "},{"icon":"briefcase","title":"여담기자단 10기 해외기자","period":"2026","description":" "}],
-    skills: [],
-    storyTitle: "열정",
+    experienceCards: [{"icon":"graduation","title":"전북대학교","period":"2024~","description":"중어중문학/무역학"},{"icon":"graduation","title":"Chongqing University","period":"2025.09~2026.07","description":" "},{"icon":"award","title":"HSK 5급","period":"2026","description":" "},{"icon":"briefcase","title":"코멘토 서포터즈 11기","period":"2026","description":" "},{"icon":"briefcase","title":"여담기자단 10기 해외기자","period":"2026","description":" "}],
+    skills: [{"icon":"star","title":"중국어","description":"중국어잘해요 ㅎㅎ"},{"icon":"star","title":"귀여움","description":"귀여워요 ㅎㅎ"}],
+    storyTitle: " ",
     story: [],
     storyImage: "",
     hobbies: ["📚 독서","☕ 카페 투어"]

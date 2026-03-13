@@ -29,7 +29,7 @@ export const defaultConfig = {
     logoImage: "",
     showNavBar: true,
     showThemeToggle: true,
-    items: [{"name":"Home","url":"#hero","icon":"Home","show":true},{"name":"About","url":"#about","icon":"User","show":true},{"name":"Project","url":"#projects","icon":"Briefcase","show":true},{"name":"Profile","url":"#contact","icon":"Mail","show":true},{"name":"갤러리","url":"#gallery","icon":"Camera","show":false},{"name":"블로그","url":"#blog","icon":"Book","show":false}],
+    items: [{"name":"Home","url":"#hero","icon":"Home","show":true},{"name":"About","url":"#about","icon":"User","show":true},{"name":"Project","url":"#projects","icon":"Briefcase","show":true},{"name":"Contact","url":"#contact","icon":"Mail","show":true},{"name":"갤러리","url":"#gallery","icon":"Camera","show":false},{"name":"블로그","url":"#blog","icon":"Book","show":false}],
     siteTitle: "청화의 웹",
     siteDescription: "문과지옥에서 살아남기"
   }
