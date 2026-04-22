@@ -18,7 +18,7 @@ export function Projects() {
     initialDisplay: 3,
     loadMoreCount: 3,
     background: {"image":"","video":"","color":"","opacity":0.1},
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    projects: [{"image":"/uploads/project-1776835315724-1776835315812.png","video":"","title":"[스마트관광신문] ","description":"여담기자단 해외부 기자 - 중국"},{"image":"/uploads/project-1776835514585-1776835514601.jpg","video":"","title":"[충칭 대한민국 임시정부]","description":"충칭 대한민국 임시정부 구지진열관 해설사 봉사활동 (60시간)"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)

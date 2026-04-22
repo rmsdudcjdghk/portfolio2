@@ -66,6 +66,11 @@ export function Contact() {
       "name": "새 링크",
       "icon": "globe",
       "url": "https://blog.naver.com/kamuifor"
+    },
+    {
+      "name": "새 링크",
+      "icon": "globe",
+      "url": "https://www.st-news.co.kr/news/articleList.html?sc_area=I&sc_word=aliceoh"
     }
   ]
   
