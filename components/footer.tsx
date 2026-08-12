@@ -31,7 +31,7 @@ export function Footer() {
     contactTitle: "연락처",
     phone: "010-6627-0334",
     email: "allicetulip@naver.com",
-    location: " ",
+    location: "감사합니다.",
     copyright: "© 2026 오청화. All rights reserved.",
     showMadeWith: true,
     madeWithLocation: "Mrbaeksang",
